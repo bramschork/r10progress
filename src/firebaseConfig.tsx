@@ -3,13 +3,25 @@ import { browserSessionPersistence, getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
+
+  apiKey: "AIzaSyCswYpaLv8w7n1DPA5So539BV6QbHcuecs",
+
+  authDomain: "r10progress-f91bc.firebaseapp.com",
+
+  projectId: "r10progress-f91bc",
+
+  storageBucket: "r10progress-f91bc.appspot.com",
+  
+
+  messagingSenderId: "204516761585",
+
+  appId: "1:204516761585:web:8971f06db717fd871aee50",
+
+
+  measurementId: "G-FJ9NJ2F8BH"
+
 };
+
 
 export const firebaseApp = initializeApp(firebaseConfig);
 export const db = getFirestore(firebaseApp);
