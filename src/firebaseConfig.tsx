@@ -11,12 +11,11 @@ const firebaseConfig = {
   projectId: "r10progress-f91bc",
 
   storageBucket: "r10progress-f91bc.appspot.com",
-  
 
   messagingSenderId: "204516761585",
 
   appId: "1:204516761585:web:8971f06db717fd871aee50",
-
+  
 
   measurementId: "G-FJ9NJ2F8BH"
 
